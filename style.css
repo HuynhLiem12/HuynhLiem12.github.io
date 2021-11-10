@@ -1,0 +1,224 @@
+body{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 800px;
+   margin: auto;
+   height: 1080px;
+   background: #90958a;
+background-image: linear-gradient(90deg, #6e40aa, #be3caf, #fe4b83, #ff7747, #e3b62f, #b0ef5a, #53f666, #1edfa2, #23acd8, #4c6fdc, #4c6fdc);
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+#main{
+    border-radius: 10px;
+    margin: auto;
+    height: 1080px;
+    background-color: rgb(249, 255, 254);  
+}
+#top{
+   
+    width: 310px;
+    height: 1080px;
+    float: left;
+    background-color: rgb(57, 221, 205);
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    width: 70%;
+    height:20%;
+    margin-top:15px;
+    margin-left: 45px;
+}
+#top >.pr{
+    font-weight: bold;
+    font-size: 20px; 
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+#top >i{
+    color: rgb(19, 41, 102);
+    margin-left: 20px;
+    font-size:15px;
+    margin-top: 5px;
+    
+}
+ .i{
+    
+    margin-left: 12px;   
+}
+#top i a{
+    color: blue;
+    text-decoration: none;
+}
+#top i a:hover{
+    color:red;
+}
+#top #muctieu h2{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    font-size: 20px;
+}
+p{
+    margin-left: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+#kinang{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#kinang >h2{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    font-size: 20px;
+}
+#kinang i{
+    color: rgb(44, 13, 221);
+}
+#border{
+    border: none solid;
+    background-color: rgb(224, 219, 224);
+    width: 100%;
+    height: 16px;
+    border-radius: 10px;
+}
+.html{
+    
+    width: 50%;
+    background-color: rgb(235, 198, 34);
+    border: none;
+    border-radius: 10px;
+}
+
+.css{
+    width: 50%;
+    background-color: rgb(52, 23, 214);
+    border: none;
+    border-radius: 10px;
+}
+.java{
+    width: 10%;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+}
+#sothich >h2{
+    text-align: center;
+    font-family:cursive;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+ul li{
+    list-style-type:disc;
+    margin-left: 40px;
+    margin-top: 8px;
+    color: rgb(46, 43, 38);
+    font-family:'Times New Roman', Times, serif;
+
+}
+#right{
+    margin-left: 300px;
+    
+}
+#ten{
+    margin-left: 0px;
+   
+    border-radius: 10px;
+    height: 280px;
+    width: 501px;
+    clip-path: polygon(100% 0, 100% 35%, 0 69%, 0 0);
+    background-color:  rgb(57, 221, 205);
+}
+#ten >h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-top: 10px;
+    color: rgb(98, 12, 211);
+    font-size: 35px;
+    text-align: center;
+    
+}
+#ten>p{
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#trinhdo >h2{
+   
+    margin-top:-30px;
+    font-family: cursive;
+    font-size: 20px;
+    color:rgb(44, 13, 221);
+    clip-path: polygon(75% 0%, 80% 50%, 75% 100%, 0 100%, 10% 50%, 0% 0%);
+    border-radius:15px;
+    width: 300px;
+    height: 31px;
+    margin-left: 12px;
+    padding-left: 50px;
+    background:rgb(57, 221, 205);
+}
+#trinhdo>p{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#kinhnghiem >h2{
+    margin-top:65px;
+    font-family: cursive;
+    font-size: 20px;
+    color:rgb(44, 13, 221);
+    clip-path: polygon(75% 0%, 80% 50%, 75% 100%, 0 100%, 10% 50%, 0% 0%);
+    border-radius:15px;
+    width: 300px;
+    height: 31px;
+    margin-left: 12px;
+    padding-left: 50px;
+    background:rgb(57, 221, 205);
+}
+#kinhnghiem>p{
+    margin-top: 10px;
+    
+}
+#hoatdong>h2{
+    margin-top:75px;
+    font-family: cursive;
+    font-size: 20px;
+    color:rgb(44, 13, 221);
+    clip-path: polygon(75% 0%, 80% 50%, 75% 100%, 0 100%, 10% 50%, 0% 0%);
+    border-radius:15px;
+    width: 300px;
+    height: 31px;
+    margin-left: 12px;
+    padding-left: 50px;
+    background:rgb(57, 221, 205);
+}
+#hoatdong>p{
+    margin-top: 10px;
+}
+#duan>h2{
+    margin-top:135px;
+    font-family: cursive;
+    font-size: 20px;
+    color:rgb(44, 13, 221);
+    clip-path: polygon(75% 0%, 80% 50%, 75% 100%, 0 100%, 10% 50%, 0% 0%);
+    border-radius:15px;
+    width: 300px;
+    height: 31px;
+    margin-left: 12px;
+    padding-left: 50px;
+    background:rgb(57, 221, 205);
+}
+#duan>p{
+    margin-top: 10px;
+}
